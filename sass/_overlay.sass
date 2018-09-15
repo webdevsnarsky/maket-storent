@@ -1,0 +1,55 @@
+.overlay
+	position: fixed
+	display: none
+	top: 0
+	width: 100%
+	height: 100%
+	z-index: 3
+	background-color: rgba(0,0,0,.4)
+	.popup
+		position: fixed
+		left: 50%
+		top: 125px
+		width: 360px
+		transform: translateX(-50%)
+		&-close
+			position: absolute
+			right: -20px
+			top: -30px
+			font-size: 35px
+			color: #ffffff
+			font-weight: 300
+			cursor: pointer
+		&-title
+			display: block
+			width: 100%
+			margin: 0
+			background-color: #ffffff
+			color: black
+			font-size: 21px
+			text-transform: uppercase
+			text-align: center
+			padding: 15px
+		&-form
+			background-color: #ffffff
+			padding: 4px 60px 30px 60px	
+			&_note
+				background-color: #ffffff
+				color: #7c7c7c
+				font-size: 14px
+				font-weight: 400
+				text-align: center
+				margin-top: 10px
+				a
+					color: #7c7c7c
+					&:hover
+						color: #00d1f9
+
+	.form__input
+		width: 100%
+		mr0
+		margin-right: 35px
+		margin-bottom: 10px
+
+	.button
+		width: 100%
